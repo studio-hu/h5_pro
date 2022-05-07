@@ -1,0 +1,319 @@
+ /* 移动端开始 */
+ 
+ @media screen and (max-width:768px) {
+     /* header begin */
+     .header-inside {
+         width: 100%;
+     }
+     .header-left {
+         display: none;
+     }
+     .header-right {
+         display: none;
+     }
+     .header-left-item {
+         display: none;
+     }
+     .logo {
+         /* margin: 0 auto; */
+         margin-left: 10px;
+     }
+     .logo img {
+         width: 115px;
+     }
+     .mobile {
+         position: absolute;
+         display: block;
+         right: 15px;
+         top: 14px;
+     }
+     .mobile img {
+         width: 50px;
+     }
+     .mobile_mask {
+         display: none;
+         position: fixed;
+         /* top: 0; */
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0, 0, 0, 0.3);
+         z-index: 50;
+     }
+     .mobile_nav {
+         position: fixed;
+         /* display: none; */
+         right: -218px;
+         width: 218px;
+         height: 100%;
+         /* background-color: rgba(0, 0, 0, 1); */
+         top: 70px;
+         z-index: 999;
+         transition: .6s ease-in-out;
+     }
+     .mobile_list {
+         /* position: relative; */
+         /* float: right; */
+         width: 218px;
+         height: 100%;
+         /* left: 218px; */
+         background-color: rgb(252, 252, 252);
+         list-style: none;
+         transition: .6s ease-in-out;
+     }
+     .number {
+         height: 80px !important;
+         line-height: 80px !important;
+     }
+     .number span {
+         background-color: rgb(85, 85, 85);
+         color: #fff;
+         padding: 10px;
+         font-size: 14px;
+         border-radius: 5px;
+     }
+     .mobile_item {
+         width: 100%;
+         margin: 0 auto;
+         height: 40px;
+         text-align: center;
+         line-height: 40px;
+         border-bottom: 1px rgba(189, 189, 189, 0.3) solid;
+     }
+     .mobile_login {
+         border-bottom: none;
+         margin-top: 20px;
+     }
+     .mobile_login a {
+         display: inline !important;
+         background-color: rgb(206, 50, 50);
+         color: #fff !important;
+         padding: 10px;
+         border-radius: 5px;
+     }
+     .mobile_item a {
+         text-decoration: none;
+         display: block;
+         color: black;
+     }
+     .mobile_list_second {
+         display: none;
+         transition: .6s ease-in-out;
+         width: 100%;
+         height: 100px;
+         position: relative;
+         top: 0;
+     }
+     /* header end */
+     /*footer begin*/
+     .gcs-footer {
+         height: 26.5rem;
+     }
+     .gcs-footer .footer-top {
+         margin-top: 5rem;
+     }
+     .gcs-footer a {
+         font-size: 1.6rem;
+         padding: 0 1rem;
+     }
+     .gcs-footer p {
+         font-size: 1.6rem;
+         height: 1.5rem;
+         margin-top: 3rem;
+     }
+     /*footer end*/
+ }
+ /* 移动端结束 */
+ /* #################################################################### */
+ /* ipad端开始 */
+ 
+ @media screen and (max-width:992px) and (min-width:768px) {
+     /* header begin */
+     .header-inside {
+         width: 100%;
+     }
+     .header-left a {
+         font-size: 15px;
+     }
+     .header-right a {
+         font-size: 15px;
+     }
+     .header-left-item {
+         padding: 0 12px;
+         /* transition: .6s ease-in-out; */
+     }
+     .header-right-item {
+         padding: 0 15px;
+     }
+     .logo {
+         float: left;
+         padding-left: 5px;
+     }
+     .logo img {
+         width: 115px;
+     }
+     .mobile_nav {
+         display: none;
+     }
+     /* header end */
+     /*footer begin*/
+     .gcs-footer {
+         height: 16.5rem;
+     }
+     .gcs-footer .footer-top {
+         margin-top: 5rem;
+     }
+     .gcs-footer a {
+         font-size: 1.6rem;
+         padding: 0 1rem;
+     }
+     .gcs-footer p {
+         font-size: 1.6rem;
+         height: 1.5rem;
+         margin-top: 3rem;
+     }
+     /*footer end*/
+ }
+ /* ipad端结束 */
+ /* pc端开始 */
+ /* ####################################小尺寸######################## */
+ 
+ @media screen and (max-width:1266px) and (min-width:992px) {
+     /* header begin */
+     .header {
+         height: 70px;
+     }
+     .header-inside {
+         width: 100%;
+     }
+     .header-left a {
+         font-size: 1.8rem;
+     }
+     .header-left-item {
+         padding: 0 20px;
+     }
+     .header-right-item {
+         padding: 0 20px;
+     }
+     .header-right a {
+         font-size: 1.8rem;
+     }
+     .logo {
+         float: left;
+         padding-left: 0.5rem;
+     }
+     .logo img {
+         width: 115px;
+     }
+     .mobile_nav {
+         display: none;
+     }
+     /* header end */
+     /* banner begin */
+     .banner-list-item img {
+         width: 100%;
+     }
+     /* banner end */
+     /*content begin*/
+     .box-one {
+         width: 100%;
+         height: 26.04vw;
+         margin: 5.20vw 0;
+     }
+     .box-inside {
+         width: 66%;
+         height: 26.04vw;
+         margin: 0 auto;
+     }
+     /*content end*/
+     /* contact begin */
+     .contact {
+         width: 100%;
+         /* height: 700px; */
+         /* height: 100%; */
+         height: 44vw;
+     }
+     /* contact end */
+     /*footer begin*/
+     .gcs-footer {
+         height: 16.5rem;
+     }
+     .gcs-footer .footer-top {
+         margin-top: 5rem;
+     }
+     .gcs-footer a {
+         font-size: 1.6rem;
+         padding: 0 1rem;
+     }
+     .gcs-footer p {
+         font-size: 1.6rem;
+         height: 1.5rem;
+         margin-top: 3rem;
+     }
+     /*footer end*/
+ }
+ /* ####################################大尺寸######################## */
+ 
+ @media screen and (min-width:1266px) {
+     /* header begin */
+     .header {
+         height: 7rem;
+     }
+     .header-inside {
+         width: 126.6rem;
+     }
+     .logo {
+         float: left;
+     }
+     .logo img {
+         width: 11.5rem;
+     }
+     .header-left a {
+         font-size: 1.8rem;
+     }
+     .header-left-item {
+         line-height: 7rem;
+         padding: 0 2rem;
+     }
+     .header-right a {
+         font-size: 1.8rem;
+     }
+     .header-right-item {
+         line-height: 7rem;
+         padding: 0 2rem;
+     }
+     .header-right-item:nth-child(1) {
+         right: 14.5rem;
+     }
+     .header-right-item:nth-child(2) {
+         right: 1rem;
+     }
+     .header-button {
+         padding: 1rem 2rem;
+     }
+     .header-active a {
+         padding-bottom: 1rem;
+         border-bottom: 0.5rem #CE3232 solid;
+     }
+     .mobile_nav {
+         display: none;
+     }
+     /* header end */
+     /*footer begin*/
+     .gcs-footer {
+         height: 16.5rem;
+     }
+     .gcs-footer .footer-top {
+         margin-top: 5rem;
+     }
+     .gcs-footer a {
+         font-size: 1.6rem;
+         padding: 0 1rem;
+     }
+     .gcs-footer p {
+         font-size: 1.6rem;
+         height: 1.5rem;
+         margin-top: 3rem;
+     }
+     /*footer end*/
+ }
+ /* pc端结束 */

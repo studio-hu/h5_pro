@@ -1,0 +1,416 @@
+* {
+    /* transition: none !important; */
+}
+
+body {
+    background-color: #272627;
+}
+
+.content {
+    padding-top: 100px;
+    /* background-color: #d631d6; */
+    width: 1266px;
+    /* height: 800px; */
+    margin: 0 auto;
+}
+
+.box {
+    /* background-color: #2d2d2d; */
+}
+
+.box img {
+    width: 100%;
+    float: left;
+}
+
+.area {
+    width: 80px;
+    height: 700px;
+    /* margin-left: 20px; */
+    border-radius: 10px;
+    margin: 0 auto;
+    /* border: 2px #a7a7a7 solid; */
+    /* background-color: rgb(79, 102, 102); */
+}
+
+.area_select {
+    width: 90%;
+    height: 100px;
+    margin: 20px auto;
+    padding-top: 50px;
+    /* background-color: #4b8524; */
+    color: #ffffff;
+    font-size: 14px;
+    padding-right: 10px;
+    /* float: right; */
+}
+
+.area_select span {
+    display: block;
+    font-size: 18px;
+    float: left;
+    padding-right: 10px;
+    line-height: 34px;
+}
+
+.p_1 {
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 40px;
+    /* background-color: #4b8524; */
+    /* float: left; */
+}
+
+.p_3 {
+    width: 90%;
+    /* height: 100px; */
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-size: 18px;
+    /* background-color: #745074; */
+}
+
+.p_3_1 {
+    font-size: 40px;
+    color: red;
+}
+
+.p_3_2 {
+    font-size: 30px;
+    color: red;
+}
+
+.more {
+    width: 90%;
+    height: 100px;
+    margin: 20px auto;
+    /* background-color: rgb(131, 115, 131); */
+}
+
+.border {
+    padding: 12px 30px;
+    width: 160px;
+    border: 1px solid red;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+    color: red;
+}
+
+.border a {
+    text-decoration: none;
+    color: red;
+}
+
+.border a:hover {
+    color: red;
+}
+
+.filter-box {
+    width: 240px;
+    height: 34px;
+    background-color: #414141;
+    border: solid 0px #dcdcdc;
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 10px;
+    border-color: #dcdcdc;
+    outline: none;
+}
+
+
+/* 移动端开始 */
+
+@media screen and (max-width:768px) {
+    .content {
+        padding-top: 10rem;
+        width: 100%;
+        height: 210rem;
+        margin: 0 auto;
+    }
+    .box {
+        width: 123.5rem;
+    }
+    .area {
+        width: 120rem;
+        height: 70rem;
+        margin-left: 2rem;
+        float: left;
+    }
+    .area_select {
+        /* box-sizing: border-box; */
+        padding-left: 5rem;
+        height: 10rem;
+        margin: 2rem auto;
+        padding-top: 5rem;
+        /* font-size: 1.4rem; */
+        padding-right: 1rem;
+        /* text-align: center; */
+    }
+    .area_select span {
+        padding-left: 23rem;
+        font-size: 4.8rem;
+        padding-right: 4rem;
+        line-height: 4.8rem;
+    }
+    .p_1 {
+        box-sizing: border-box;
+        padding-left: 25rem;
+        height: 15rem;
+        font-size: 3.8rem;
+        line-height: 7rem;
+    }
+    .p_3 {
+        height: 50rem;
+        font-size: 3.8rem;
+        box-sizing: border-box;
+        padding-left: 25rem;
+    }
+    .p_3_1 {
+        font-size: 8rem;
+    }
+    .p_3_2 {
+        font-size: 3rem;
+    }
+    .more {
+        height: 15rem;
+        margin: 2rem auto;
+    }
+    .border {
+        padding: 4.2rem 3rem;
+        width: 38rem;
+        border: 1px solid red;
+        border-radius: 10.5rem;
+        font-size: 4.6rem;
+        margin: 0 auto;
+        /* line-height: 15rem; */
+    }
+    .filter-box {
+        width: 29rem;
+        height: 4.8rem;
+        font-size: 2.4rem;
+        padding-left: 3rem;
+    }
+}
+
+
+/* 移动端结束 */
+
+
+/* #################################################################### */
+
+
+/* ipad端开始 */
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    .content {
+        padding-top: 10rem;
+        width: 126.6rem;
+        height: 146rem;
+        margin: 0 auto;
+    }
+    .box {
+        width: 111.5rem;
+    }
+    .area {
+        width: 77rem;
+        height: 44rem;
+        margin-left: 23rem;
+        float: left;
+    }
+    .area_select {
+        width: 38rem;
+        height: 10rem;
+        margin: 2rem auto;
+        padding-top: 5rem;
+        font-size: 1.4rem;
+        padding-right: 1rem;
+        float: left;
+    }
+    .area_select span {
+        width: 9rem;
+        font-size: 1.8rem;
+        padding-right: 1rem;
+        line-height: 3.4rem;
+    }
+    .p_1 {
+        width: 40rem;
+        height: 10rem;
+        font-size: 1.8rem;
+        line-height: 4rem;
+        float: left;
+    }
+    .p_3 {
+        width: 36rem;
+        font-size: 1.8rem;
+        float: right;
+        position: relative;
+        top: -24rem;
+    }
+    .p_3_1 {
+        font-size: 6rem;
+    }
+    .p_3_2 {
+        font-size: 5rem;
+    }
+    .more {
+        width: 40rem;
+        height: 10rem;
+        margin: 2rem auto;
+        float: left;
+    }
+    .border {
+        padding: 1.2rem 3rem;
+        width: 17rem;
+        border: 1px solid red;
+        border-radius: 2.5rem;
+        font-size: 1.6rem;
+    }
+    .filter-box {
+        width: 24rem;
+        height: 3.4rem;
+        font-size: 1.4rem;
+        padding-left: 1rem;
+    }
+}
+
+
+/* ipad端结束 */
+
+
+/* pc端开始 */
+
+
+/* ####################################小尺寸######################## */
+
+@media screen and (max-width:1266px) and (min-width:992px) {
+    .content {
+        padding-top: 10rem;
+        width: 100%;
+        height: 93rem;
+        margin: 0 auto;
+    }
+    .box {
+        width: 78.5rem;
+    }
+    .area {
+        width: 43rem;
+        height: 70rem;
+        margin-left: 2rem;
+        float: left;
+    }
+    .area_select {
+        height: 10rem;
+        margin: 2rem auto;
+        padding-top: 5rem;
+        font-size: 1.4rem;
+        padding-right: 1rem;
+    }
+    .area_select span {
+        font-size: 1.8rem;
+        padding-right: 1rem;
+        line-height: 3.4rem;
+    }
+    .p_1 {
+        height: 10rem;
+        font-size: 1.8rem;
+        line-height: 4rem;
+    }
+    .p_3 {
+        font-size: 1.8rem;
+    }
+    .p_3_1 {
+        font-size: 4rem;
+    }
+    .p_3_2 {
+        font-size: 3rem;
+    }
+    .more {
+        height: 10rem;
+        margin: 2rem auto;
+    }
+    .border {
+        padding: 1.2rem 3rem;
+        width: 16rem;
+        border: 1px solid red;
+        border-radius: 2.5rem;
+        font-size: 1.6rem;
+    }
+    .filter-box {
+        width: 24rem;
+        height: 3.4rem;
+        font-size: 1.4rem;
+        padding-left: 1rem;
+    }
+}
+
+
+/* ####################################大尺寸######################## */
+
+@media screen and (min-width:1266px) {
+    .content {
+        padding-top: 10rem;
+        width: 126.6rem;
+        height: 80rem;
+        margin: 0 auto;
+    }
+    .box {
+        width: 78.5rem;
+    }
+    .area {
+        width: 43rem;
+        height: 70rem;
+        float: left;
+        margin-left: 2rem;
+    }
+    .area_select {
+        height: 10rem;
+        margin: 2rem auto;
+        padding-top: 5rem;
+        font-size: 1.4rem;
+        padding-right: 1rem;
+    }
+    .area_select span {
+        font-size: 1.8rem;
+        padding-right: 1rem;
+        line-height: 3.4rem;
+    }
+    .p_1 {
+        height: 10rem;
+        font-size: 1.8rem;
+        line-height: 4rem;
+    }
+    .p_3 {
+        font-size: 1.8rem;
+    }
+    .p_3_1 {
+        font-size: 4rem;
+    }
+    .p_3_2 {
+        font-size: 3rem;
+    }
+    .more {
+        height: 10rem;
+        margin: 2rem auto;
+    }
+    .border {
+        padding: 1.2rem 3rem;
+        width: 16rem;
+        border: 1px solid red;
+        border-radius: 2.5rem;
+        font-size: 1.6rem;
+    }
+    .filter-box {
+        width: 24rem;
+        height: 3.4rem;
+        font-size: 1.4rem;
+        padding-left: 1rem;
+    }
+}
+
+
+/* pc端结束 */

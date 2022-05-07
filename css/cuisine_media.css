@@ -1,0 +1,726 @@
+ /* 移动端开始 */
+ 
+ @media screen and (max-width:768px) {
+     /* nav begin */
+     .contact {
+         width: 100%;
+         height: 513.5rem;
+     }
+     .nav {
+         /* width: 24rem; */
+         display: none;
+     }
+     .sidebar {
+         width: 20rem;
+         height: 40rem;
+         /* padding: 0 2rem; */
+         /* margin-right: 5rem; */
+         border-radius: 1rem;
+     }
+     .sidebar-item {
+         width: 100%;
+         height: 4rem;
+         line-height: 4rem;
+         margin: 0.3rem 0;
+     }
+     .sidebar-item span {
+         font-size: 3.6rem;
+     }
+     .sidebar-item a {
+         font-size: 2rem;
+         margin: 1rem 3rem;
+         border-radius: 0.5rem;
+     }
+     .code img {
+         border-radius: 1rem;
+         width: 20rem;
+     }
+     /* nav end */
+     /* box begin */
+     .box {
+         width: 90%;
+         margin-left: 6rem;
+         /* margin: 0 auto; */
+     }
+     .box-top {
+         height: 12rem;
+         margin-bottom: 7rem;
+     }
+     .box-top h1 {
+         font-size: 6.5rem;
+         padding: 1rem 2rem;
+     }
+     .box-top ul {
+         margin-left: 1.5rem;
+     }
+     .box-top li {
+         /* font-size: 1.6rem; */
+         margin: 0.5rem 0.8rem;
+     }
+     .box-top a {
+         font-size: 3rem;
+     }
+     .input {
+         right: 15rem;
+         top: 0.8rem;
+         width: 40rem;
+         height: 7rem;
+         font-size: 2.8rem;
+         padding-left: 2rem;
+         border-radius: 0.5rem;
+     }
+     .input_2 {
+         right: 2rem;
+         top: 0.8rem;
+         width: 13rem;
+         height: 7rem;
+         font-size: 2.8rem;
+         border-radius: 0.5rem;
+     }
+     /* box end */
+     /* box-details begin */
+     .box-details {
+         /* margin-bottom: 3rem; */
+     }
+     .box-items {
+         width: 53rem;
+         border-radius: 2rem;
+         margin-bottom: 5rem;
+     }
+     .box-items:hover {
+         box-shadow: 0.3re 0.5re 2rem rgba(75, 75, 75, 0.5);
+         top: -1rem;
+     }
+     .box-items img {
+         width: 53rem;
+     }
+     .img-items {
+         height: 60rem;
+     }
+     .items-title {
+         height: 14rem;
+         padding-top: 1rem;
+         padding-bottom: 0.5rem;
+     }
+     .items-title span {
+         display: block;
+         font-size: 4rem;
+         font-weight: bold;
+         margin: 1.5rem 1.5rem;
+     }
+     .items-title p {
+         font-size: 3rem;
+         margin: 0.5rem 1.5rem;
+     }
+     .price {
+         font-size: 3rem;
+         right: 2rem;
+         bottom: 8.1rem;
+     }
+     @media screen and (max-width:768px) and (min-width:624px) {
+         .contact {
+             width: 100%;
+             height: 228.5rem;
+         }
+         .box-items {
+             width: 36rem;
+             border-radius: 1rem;
+             margin-bottom: 4rem;
+         }
+         .box-items:hover {
+             box-shadow: 0.3re 0.5re 2rem rgba(75, 75, 75, 0.5);
+             top: -1rem;
+         }
+         .box-items img {
+             width: 40rem;
+             /* margin-right: 1.66rem; */
+         }
+         .img-items {
+             height: 36rem;
+         }
+         .items-title {
+             height: 8rem;
+             padding-top: 1rem;
+             padding-bottom: 0.5rem;
+         }
+         .items-title span {
+             font-size: 2.8rem;
+             font-weight: bold;
+             margin: 0.2rem 1.5rem;
+         }
+         .items-title p {
+             font-size: 1.4rem;
+             margin: 0.5rem 1.5rem;
+         }
+         .price {
+             font-size: 2rem;
+             right: 1rem;
+             bottom: 5.1rem;
+         }
+     }
+     /* box-details end */
+     /* box-pag begin */
+     .pag-item-title {
+         width: 14rem;
+         height: 6rem;
+         line-height: 6rem;
+     }
+     .pag-item {
+         width: 6rem;
+         height: 6rem;
+         line-height: 6rem;
+     }
+     .box-pag-deatils li {
+         margin: 0 0.5rem;
+         border-radius: 0.5rem;
+     }
+     .box-pag-deatils a {
+         font-size: 3rem;
+     }
+     /* box-pag end */
+     /* side begin */
+     .side {
+         width: 25%;
+         /* height: 100rem; */
+         display: none;
+     }
+     .side-hot {
+         margin-left: 2rem;
+         padding-bottom: 4rem;
+         top: 1rem;
+     }
+     .side-hot h2 {
+         font-size: 2.4rem;
+     }
+     .hot-ul {
+         margin: 1rem 0;
+     }
+     .side-hot-item {
+         margin: 0.8rem 0.7rem;
+         padding: 0.5rem;
+         border-radius: 0.5rem;
+         font-size: 2rem;
+     }
+     .hot-week-item {
+         margin-top: 2rem;
+     }
+     .hot-week-item-left {
+         width: 13rem;
+         height: 13rem;
+     }
+     .hot-week-item-left span {
+         width: 8rem;
+         height: 2.5rem;
+         line-height: 2.5rem;
+         top: 1rem;
+         left: -0.5rem;
+         border-radius: 0 0.6rem 0.6rem 0;
+         font-size: 1.6rem;
+     }
+     .hot-week-item-left img {
+         border-radius: 0.8rem;
+         width: 13rem;
+     }
+     .hot-week-item-right {
+         margin-left: 1.5rem;
+     }
+     .hot-week-item-right h4 {
+         padding-top: 1rem;
+         font-size: 2.2rem;
+     }
+     .hot-week-item-right p {
+         font-size: 2rem;
+         padding-top: 0.5rem;
+     }
+     .hot-week-item-right img {
+         top: 2.7rem;
+         width: 3rem;
+     }
+     .side-recommend {
+         margin-left: 2rem;
+         padding-bottom: 4rem;
+     }
+     .side-recommend h2 {
+         font-size: 2.5rem;
+     }
+     .recommend-ul {
+         margin-top: 2rem;
+     }
+     .side-recommend-item {
+         margin: 0.7rem 0.6rem;
+         padding: 0.5rem;
+         border-radius: 0.5rem;
+         font-size: 1.8rem;
+     }
+     .side-guess {
+         margin-left: 2rem;
+     }
+     .side-guess h2 {
+         font-size: 2.5rem;
+     }
+     .guess {
+         margin-top: 2rem;
+     }
+     .guess-item {
+         width: 14rem;
+         height: 14rem;
+         margin-bottom: 3rem;
+     }
+     .guess-item img {
+         width: 14rem;
+     }
+     .guess-item span {
+         margin-top: 1rem;
+         font-size: 2rem;
+     }
+     /* side end */
+ }
+ /* 移动端结束 */
+ /* #################################################################### */
+ /* ipad端开始 */
+ 
+ @media screen and (max-width:992px) and (min-width:768px) {
+     /* nav begin */
+     .contact {
+         width: 100%;
+         height: 340.5rem;
+     }
+     /* .nav {
+        width: 24rem;
+    } */
+     .sidebar {
+         width: 20rem;
+         height: 40rem;
+         /* padding: 0 2rem; */
+         /* margin-right: 5rem; */
+         border-radius: 1rem;
+     }
+     .sidebar-item {
+         width: 100%;
+         height: 4rem;
+         line-height: 4rem;
+         margin: 0.3rem 0;
+     }
+     .sidebar-item span {
+         font-size: 3.6rem;
+     }
+     .sidebar-item a {
+         font-size: 2rem;
+         margin: 1rem 3rem;
+         border-radius: 0.5rem;
+     }
+     .code img {
+         border-radius: 1rem;
+         width: 20rem;
+     }
+     /* nav end */
+     /* box begin */
+     .box {
+         width: 56%;
+     }
+     .box-top {
+         height: 12rem;
+         margin-bottom: 3rem;
+     }
+     .box-top h1 {
+         font-size: 5rem;
+         padding: 1rem 2rem;
+     }
+     .box-top ul {
+         margin-left: 1.5rem;
+     }
+     .box-top li {
+         /* font-size: 1.6rem; */
+         margin: 0.5rem 0.8rem;
+     }
+     .box-top a {
+         font-size: 2.2rem;
+     }
+     .input {
+         right: 12rem;
+         top: 0.8rem;
+         width: 30rem;
+         height: 5rem;
+         font-size: 1.8rem;
+         padding-left: 1rem;
+         border-radius: 0.5rem;
+     }
+     .input_2 {
+         right: 2rem;
+         top: 0.8rem;
+         width: 10rem;
+         height: 5rem;
+         font-size: 1.8rem;
+         border-radius: 0.5rem;
+     }
+     /* box end */
+     /* box-details begin */
+     .box-details {
+         /* margin-bottom: 3rem; */
+     }
+     .box-items {
+         width: 34rem;
+         border-radius: 1rem;
+         margin-bottom: 4rem;
+     }
+     .box-items:hover {
+         box-shadow: 0.3re 0.5re 2rem rgba(75, 75, 75, 0.5);
+         top: -1rem;
+     }
+     .box-items img {
+         width: 34rem;
+         /* margin-right: 1.66rem; */
+     }
+     .img-items {
+         height: 40rem;
+     }
+     .items-title {
+         height: 8rem;
+         padding-top: 1rem;
+         padding-bottom: 0.5rem;
+     }
+     .items-title span {
+         font-size: 2.8rem;
+         font-weight: bold;
+         margin: 0.2rem 1.5rem;
+     }
+     .items-title p {
+         font-size: 1.4rem;
+         margin: 0.5rem 1.5rem;
+     }
+     .price {
+         font-size: 2rem;
+         right: 1rem;
+         bottom: 5.1rem;
+     }
+     /* box-details end */
+     /* box-pag begin */
+     .pag-item-title {
+         width: 7rem;
+         height: 4rem;
+         line-height: 4rem;
+     }
+     .pag-item {
+         width: 4rem;
+         height: 4rem;
+         line-height: 4rem;
+     }
+     .box-pag-deatils li {
+         margin: 0 0.5rem;
+         border-radius: 0.5rem;
+     }
+     .box-pag-deatils a {
+         font-size: 2rem;
+     }
+     /* box-pag end */
+     /* side begin */
+     .side {
+         width: 25%;
+         /* height: 100rem; */
+     }
+     .side-hot {
+         margin-left: 2rem;
+         padding-bottom: 4rem;
+         top: 1rem;
+     }
+     .side-hot h2 {
+         font-size: 2.4rem;
+     }
+     .hot-ul {
+         margin: 1rem 0;
+     }
+     .side-hot-item {
+         margin: 0.8rem 0.7rem;
+         padding: 0.5rem;
+         border-radius: 0.5rem;
+         font-size: 2rem;
+     }
+     .hot-week-item {
+         margin-top: 2rem;
+     }
+     .hot-week-item-left {
+         width: 13rem;
+         height: 13rem;
+     }
+     .hot-week-item-left span {
+         width: 8rem;
+         height: 2.5rem;
+         line-height: 2.5rem;
+         top: 1rem;
+         left: -0.5rem;
+         border-radius: 0 0.6rem 0.6rem 0;
+         font-size: 1.6rem;
+     }
+     .hot-week-item-left img {
+         border-radius: 0.8rem;
+         width: 13rem;
+     }
+     .hot-week-item-right {
+         margin-left: 1.5rem;
+     }
+     .hot-week-item-right h4 {
+         padding-top: 1rem;
+         font-size: 2.2rem;
+     }
+     .hot-week-item-right p {
+         font-size: 2rem;
+         padding-top: 0.5rem;
+     }
+     .hot-week-item-right img {
+         top: 2.7rem;
+         width: 3rem;
+     }
+     .side-recommend {
+         margin-left: 2rem;
+         padding-bottom: 4rem;
+     }
+     .side-recommend h2 {
+         font-size: 2.5rem;
+     }
+     .recommend-ul {
+         margin-top: 2rem;
+     }
+     .side-recommend-item {
+         margin: 0.7rem 0.6rem;
+         padding: 0.5rem;
+         border-radius: 0.5rem;
+         font-size: 1.8rem;
+     }
+     .side-guess {
+         margin-left: 2rem;
+     }
+     .side-guess h2 {
+         font-size: 2.5rem;
+     }
+     .guess {
+         margin-top: 2rem;
+     }
+     .guess-item {
+         width: 14rem;
+         height: 14rem;
+         margin-bottom: 3rem;
+     }
+     .guess-item img {
+         width: 14rem;
+     }
+     .guess-item span {
+         margin-top: 1rem;
+         font-size: 2rem;
+     }
+     /* side end */
+ }
+ /* ipad端结束 */
+ /* pc端开始 */
+ /* ####################################小尺寸######################## */
+ 
+ @media screen and (max-width:1266px) and (min-width:992px) {
+     /* nav begin */
+     .contact {
+         width: 100%;
+         height: 195.5rem;
+     }
+     /* .nav {
+         width: 24rem;
+     } */
+     .sidebar {
+         width: 15rem;
+         height: 40rem;
+         padding: 0 2rem;
+         margin-right: 5rem;
+         border-radius: 1rem;
+     }
+     .sidebar-item {
+         width: 100%;
+         height: 3rem;
+         line-height: 3rem;
+         margin: 0.3rem 0;
+     }
+     .sidebar-item span {
+         font-size: 2.6rem;
+     }
+     .sidebar-item a {
+         font-size: 1.6rem;
+         margin: 1rem 3rem;
+         border-radius: 0.5rem;
+     }
+     .code img {
+         border-radius: 1rem;
+         width: 20rem;
+     }
+     /* nav end */
+     /* box begin */
+     .box {
+         /* width: 80rem; */
+         /* height: 60rem; */
+     }
+     .box-top {
+         height: 12rem;
+     }
+     .box-top h1 {
+         font-size: 4rem;
+         padding: 1rem 2rem;
+     }
+     .box-top ul {
+         margin-left: 1.5rem;
+     }
+     .box-top li {
+         font-size: 1.6rem;
+         margin: 0.5rem 0.8rem;
+     }
+     .box-top a {
+         font-size: 1.6rem;
+     }
+     .input {
+         right: 12rem;
+         top: 0.8rem;
+         width: 30rem;
+         height: 5rem;
+         font-size: 1.8rem;
+         padding-left: 1rem;
+         border-radius: 0.5rem;
+     }
+     .input_2 {
+         right: 2rem;
+         top: 0.8rem;
+         width: 10rem;
+         height: 5rem;
+         font-size: 1.8rem;
+         border-radius: 0.5rem;
+     }
+     /* box end */
+     /* box-details begin */
+     .box-details {
+         /* margin-bottom: 3rem; */
+     }
+     .box-items {
+         width: 25rem;
+         border-radius: 1rem;
+         margin-bottom: 3rem;
+     }
+     .box-items:hover {
+         box-shadow: 0.3re 0.5re 2rem rgba(75, 75, 75, 0.5);
+         top: -1rem;
+     }
+     .box-items img {
+         width: 30rem;
+         /* margin-right: 1.66rem; */
+     }
+     .img-items {
+         height: 34rem;
+     }
+     .items-title {
+         height: 6rem;
+         padding-top: 1rem;
+         padding-bottom: 0.5rem;
+     }
+     .items-title span {
+         font-size: 2.4rem;
+         font-weight: bold;
+         margin: 0.2rem 1.5rem;
+     }
+     .items-title p {
+         font-size: 1.4rem;
+         margin: 0.5rem 1.5rem;
+     }
+     .price {
+         font-size: 1.4rem;
+         right: 1rem;
+         bottom: 3.5rem;
+     }
+     /* box-details end */
+     /* box-pag begin */
+     .pag-item-title {
+         width: 7rem;
+         height: 3.5rem;
+         line-height: 3.5rem;
+     }
+     .pag-item {
+         width: 3.5rem;
+         height: 3.5rem;
+         line-height: 3.5rem;
+     }
+     .box-pag-deatils li {
+         margin: 0 0.5rem;
+         border-radius: 0.5rem;
+     }
+     /* box-pag end */
+     /* side begin */
+     .side-hot {
+         margin-left: 2rem;
+         padding-bottom: 4rem;
+         top: 1rem;
+     }
+     .side-hot-item {
+         margin: 0.5rem 0.6rem;
+         padding: 0.5rem;
+         border-radius: 0.5rem;
+         font-size: 1.4rem;
+     }
+     .hot-week-item {
+         margin-top: 2rem;
+     }
+     .hot-week-item-left {
+         width: 11rem;
+         height: 11rem;
+     }
+     .hot-week-item-left span {
+         width: 6rem;
+         height: 2rem;
+         top: 1rem;
+         left: -0.5rem;
+         border-radius: 0 0.6rem 0.6rem 0;
+         font-size: 1.4rem;
+     }
+     .hot-week-item-left img {
+         border-radius: 0.5rem;
+         width: 11rem;
+     }
+     .hot-week-item-right {
+         margin-left: 1.5rem;
+     }
+     .hot-week-item-right h4 {
+         padding-top: 1rem;
+     }
+     .hot-week-item-right p {
+         font-size: 1.4rem;
+         padding-top: 0.5rem;
+     }
+     .hot-week-item-right img {
+         top: 2.7rem;
+         width: 2rem;
+     }
+     .side-recommend {
+         margin-left: 2rem;
+         padding-bottom: 4rem;
+     }
+     .side-recommend-item {
+         margin: 0.5rem 0.6rem;
+         padding: 0.5rem;
+         border-radius: 0.5rem;
+         font-size: 1.4rem;
+     }
+     .side-guess {
+         margin-left: 2rem;
+     }
+     .guess-item {
+         width: 11rem;
+         height: 11rem;
+         margin: 2rem 0;
+     }
+     .guess-item img {
+         width: 11rem;
+     }
+     .guess-item span {
+         margin-top: 1rem;
+         font-size: 1.4rem;
+     }
+     /* side end */
+ }
+ /* ####################################大尺寸######################## */
+ 
+ @media screen and (min-width:1266px) {
+     .contact {
+         width: 126.6rem;
+     }
+ }
+ /* pc端结束 */

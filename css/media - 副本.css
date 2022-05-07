@@ -1,0 +1,501 @@
+ /* 移动端开始 */
+ 
+ @media screen and (max-width:768px) {
+     /* header begin */
+     .header-inside {
+         width: 100%;
+     }
+     .header-left {
+         display: none;
+     }
+     .header-right {
+         display: none;
+     }
+     .header-left-item {
+         display: none;
+     }
+     .logo {
+         /* margin: 0 auto; */
+         margin-left: 10px;
+     }
+     .logo img {
+         width: 115px;
+     }
+     .mobile {
+         position: absolute;
+         display: block;
+         right: 15px;
+         top: 14px;
+     }
+     .mobile img {
+         width: 50px;
+     }
+     .mobile_mask {
+         display: none;
+         position: fixed;
+         /* top: 0; */
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0, 0, 0, 0.3);
+         z-index: 50;
+     }
+     .mobile_nav {
+         position: fixed;
+         /* display: none; */
+         right: -218px;
+         width: 218px;
+         height: 100%;
+         /* background-color: rgba(0, 0, 0, 1); */
+         top: 70px;
+         z-index: 999;
+         transition: .6s ease-in-out;
+     }
+     .mobile_list {
+         /* position: relative; */
+         /* float: right; */
+         width: 218px;
+         height: 100%;
+         /* left: 218px; */
+         background-color: rgb(252, 252, 252);
+         list-style: none;
+         transition: .6s ease-in-out;
+     }
+     .number {
+         height: 80px !important;
+         line-height: 80px !important;
+     }
+     .number span {
+         background-color: rgb(85, 85, 85);
+         color: #fff;
+         padding: 10px;
+         font-size: 14px;
+         border-radius: 5px;
+     }
+     .mobile_item {
+         width: 100%;
+         margin: 0 auto;
+         height: 40px;
+         text-align: center;
+         line-height: 40px;
+         border-bottom: 1px rgba(189, 189, 189, 0.3) solid;
+     }
+     .mobile_login {
+         border-bottom: none;
+         margin-top: 20px;
+     }
+     .mobile_login a {
+         display: inline !important;
+         background-color: rgb(206, 50, 50);
+         color: #fff !important;
+         padding: 10px;
+         border-radius: 5px;
+     }
+     .mobile_item a {
+         text-decoration: none;
+         display: block;
+         color: black;
+     }
+     /* header end */
+     /* banner begin */
+     .banner-list-item img {
+         width: 160%;
+     }
+     .banner-list-item i {
+         font-size: 3.5vw;
+         margin-bottom: -5vw;
+     }
+     .banner-list-item span {
+         font-size: 5.5vw;
+         font-weight: bold;
+         top: 20%;
+         left: 20%;
+     }
+     .more {
+         width: 35.1%;
+         height: 25.5%;
+         text-align: center;
+         line-height: 5.5vw;
+         margin-top: 3vw;
+         font-size: 3vw;
+     }
+     .point-item {
+         width: 2vw;
+         height: 2vw;
+     }
+     /* banner end */
+     /*content begin*/
+     .box-one {
+         width: 100%;
+         height: 110vw;
+         margin: 15vw 0;
+     }
+     .box-inside {
+         flex-direction: column;
+         width: 80%;
+         height: 100%;
+         margin: 0 auto;
+     }
+     .inside-left {
+         width: 100%;
+         height: 50%;
+     }
+     .inside-right {
+         width: 100%;
+         height: 50%;
+     }
+     .inside-left img {
+         width: 80vw;
+     }
+     .inside-right img {
+         width: 80vw;
+     }
+     .title-two {
+         font-size: 3.57vw;
+     }
+     .little-title-two {
+         font-size: 2.2vw;
+         margin: 2.05vw 1.05vw;
+     }
+     .little-title {
+         font-size: 2.84vw;
+         font-weight: bold;
+         color: rgb(191, 189, 189);
+         display: block;
+         margin: 1.04vw 1vw;
+     }
+     .title {
+         font-size: 3.56vw;
+         display: block;
+         margin: 0.52vw 1vw;
+     }
+     .details {
+         display: block;
+         margin-top: 2.5vw;
+         font-size: 2.84vw;
+         color: rgb(177, 177, 177);
+     }
+     .inside-item {
+         width: 77vw;
+         height: 56vw;
+     }
+     .mask {
+         top: 63%;
+     }
+     .mask span {
+         display: block;
+         font-size: 4.04vw;
+         margin: 1.04vw 2.6vw;
+         color: #fff;
+         font-weight: bold;
+     }
+     .mask p {
+         display: block;
+         font-size: 2.5vw;
+         margin: 1.04vw 2.6vw;
+         color: #fff;
+     }
+     /*content end*/
+     /* contact begin */
+     .contact-top h2 {
+         font-size: 5vw;
+     }
+     .contact-top p {
+         font-size: 3vw;
+     }
+     .contact {
+         height: 140vw;
+         padding-bottom: 20vw;
+     }
+     .contact-inside {
+         flex-direction: column;
+         /* justify-content: center; */
+         /* align-items: center; */
+         width: 95%;
+         height: 90%;
+         margin: 0 auto;
+         /* margin-bottom: 50px; */
+         /* padding-bottom: 30vw; */
+         /* background-color: violet; */
+         margin-bottom: 30vw;
+     }
+     .contact-left {
+         width: 100%;
+         height: 50%;
+     }
+     .contact-right {
+         width: 100%;
+         height: 50%;
+         padding-top: 10vw;
+         padding-bottom: 10vw;
+         /* margin-bottom: 200vw; */
+     }
+     .contact-left-details {
+         margin-top: 1vw;
+         width: 60%;
+         height: 25%;
+     }
+     .contact-left-details span {
+         font-size: 4vw;
+     }
+     .contact-left-details p {
+         font-size: 3vw;
+         padding-top: 0.3vw;
+     }
+     .contact-img img {
+         padding-bottom: 10px;
+         width: 10vw;
+     }
+     .contact-right h2 {
+         padding-bottom: 10px;
+         font-size: 5vw;
+     }
+     .inputBox input {
+         width: 71vw;
+         height: 8.5vw;
+         border-bottom: 1px #000 solid;
+         font-size: 3vw;
+         /* padding-top: 2.5vw; */
+         margin-top: 4vw;
+     }
+     .inputBox-span {
+         font-size: 3.5vw;
+         /* top: 6.5vw; */
+     }
+     .inputBox-span {
+         left: 0.94vw;
+         top: 5.5vw;
+     }
+     .inputBox-span-latter {
+         font-size: 2.5vw !important;
+         left: 0;
+         top: 2.5vw;
+     }
+     /* contact end */
+     /* footer begin */
+     .gcs-footer a {
+         font-size: 2.5vw;
+     }
+     .gcs-footer p {
+         font-size: 2.5vw;
+     }
+     .footer-top {
+         margin-top: 7vw !important;
+     }
+     .gcs-footer a {
+         padding: 0 1vw;
+     }
+     .gcs-footer {
+         height: 30vw !important;
+     }
+     /* footer end */
+ }
+ /* 移动端结束 */
+ /* #################################################################### */
+ /* ipad端开始 */
+ 
+ @media screen and (max-width:992px) and (min-width:768px) {
+     /* header begin */
+     .header-inside {
+         width: 100%;
+     }
+     .header-left a {
+         font-size: 15px;
+     }
+     .header-right a {
+         font-size: 15px;
+     }
+     .header-left-item {
+         padding: 0 12px;
+         /* transition: .6s ease-in-out; */
+     }
+     .header-right-item {
+         padding: 0 15px;
+     }
+     .logo {
+         float: left;
+         padding-left: 5px;
+     }
+     .logo img {
+         width: 115px;
+     }
+     .mobile_nav {
+         display: none;
+     }
+     /* header end */
+     /* banner begin */
+     .banner-list-item img {
+         width: 100%;
+     }
+     .banner-list-item i {
+         font-size: 2vw;
+         margin-bottom: -4vw;
+     }
+     .banner-list-item span {
+         font-size: 3.5vw;
+         font-weight: bold;
+         top: 10%;
+         left: 10%;
+     }
+     .more {
+         width: 35.1%;
+         height: 25.5%;
+         text-align: center;
+         line-height: 3.5vw;
+         margin-top: 2vw;
+         font-size: 1.6vw;
+     }
+     /* banner end */
+     /*content begin*/
+     .box-one {
+         width: 100%;
+         height: 30vw;
+         margin: 5.20vw 0;
+     }
+     .box-inside {
+         width: 80%;
+         height: 30vw;
+         margin: 0 auto;
+     }
+     .inside-left img {
+         width: 36vw;
+     }
+     .inside-right img {
+         width: 36vw;
+     }
+     .inside-item {
+         width: 45vw;
+         height: 32.72vw;
+     }
+     .mask {
+         top: 63%;
+     }
+     .mask span {
+         display: block;
+         font-size: 2.04vw;
+         margin: 1.04vw 2.6vw;
+         color: #fff;
+         font-weight: bold;
+     }
+     .mask p {
+         display: block;
+         font-size: 1.5vw;
+         margin: 1.04vw 2.6vw;
+         color: #fff;
+     }
+     /*content end*/
+     /* contact begin */
+     .contact-inside {
+         width: 75%;
+     }
+     .contact-img img {
+         margin: 0.52vw;
+         width: 4vw;
+     }
+     .contact {
+         width: 100%;
+         /* height: 700px; */
+         /* height: 100%; */
+         height: 44vw;
+     }
+     /* contact end */
+ }
+ /* ipad端结束 */
+ /* pc端开始 */
+ /* ####################################小尺寸######################## */
+ 
+ @media screen and (max-width:1266px) and (min-width:992px) {
+     /* header begin */
+     .header-inside {
+         width: 100%;
+     }
+     .header-left a {
+         font-size: 18px;
+     }
+     .header-left-item {
+         padding: 0 20px;
+     }
+     .header-right-item {
+         padding: 0 20px;
+     }
+     .logo {
+         float: left;
+         padding-left: 5px;
+     }
+     .logo img {
+         width: 115px;
+     }
+     .mobile_nav {
+         display: none;
+     }
+     /* header end */
+     /* banner begin */
+     .banner-list-item img {
+         width: 100%;
+     }
+     /* banner end */
+     /*content begin*/
+     .box-one {
+         width: 100%;
+         height: 26.04vw;
+         margin: 5.20vw 0;
+     }
+     .box-inside {
+         width: 66%;
+         height: 26.04vw;
+         margin: 0 auto;
+     }
+     /*content end*/
+     /* contact begin */
+     .contact {
+         width: 100%;
+         /* height: 700px; */
+         /* height: 100%; */
+         height: 44vw;
+     }
+     /* contact end */
+ }
+ /* ####################################大尺寸######################## */
+ 
+ @media screen and (min-width:1266px) {
+     /* header begin */
+     .header-inside {
+         width: 1266px;
+     }
+     .header-left a {
+         font-size: 18px;
+     }
+     .header-left-item {
+         padding: 0 20px;
+     }
+     .header-right-item {
+         padding: 0 20px;
+     }
+     .logo {
+         float: left;
+     }
+     .logo img {
+         width: 115px;
+     }
+     .mobile_nav {
+         display: none;
+     }
+     /* header end */
+     /* banner begin */
+     .banner-list-item img {
+         width: 100%;
+     }
+     /* banner end */
+     /*content begin*/
+     .box-one {
+         width: 100%;
+         height: 26.04vw;
+         margin: 5.20vw 0;
+     }
+     .box-inside {
+         width: 66%;
+         height: 26.04vw;
+         margin: 0 auto;
+     }
+     /*content end*/
+ }
+ /* pc端结束 */
