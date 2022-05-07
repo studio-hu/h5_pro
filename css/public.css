@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -171,6 +172,29 @@
 .mobile {
     display: none;
     transition: .6s ease-in-out;
+}
+
+.top {
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+    background-color: #CE3232;
+    border-radius: 5px;
+}
+
+.top a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
 }
 
 
