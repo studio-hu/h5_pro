@@ -81,6 +81,7 @@
          line-height: 40px;
          border-bottom: 1px rgba(189, 189, 189, 0.3) solid;
          font-size: 14px !important;
+         position: relative;
      }
      .mobile_item.active::before {
          content: '';
@@ -89,6 +90,40 @@
          width: 5px;
          height: 40px;
          background-color: #CE3232;
+     }
+     .cuisine_mobile_second span {
+         position: relative;
+         /* width: 20px; */
+         /* height: 50px; */
+         background-color: #CE3232;
+     }
+     .cuisine_mobile_second span::before {
+         content: '';
+         position: absolute;
+         width: 12px;
+         height: 2px;
+         right: -64px;
+         top: 16px;
+         background-color: #CE3232;
+         transition: 0.5s;
+     }
+     .cuisine_mobile_second span::after {
+         content: '';
+         position: absolute;
+         width: 12px;
+         height: 2px;
+         right: -64px;
+         top: 22px;
+         background-color: #CE3232;
+         transition: 0.5s;
+     }
+     .cuisine_mobile_second.display span::before {
+         transform: rotate(225deg);
+         top: 20px;
+     }
+     .cuisine_mobile_second.display span::after {
+         transform: rotate(135deg);
+         top: 20px;
      }
      .mobile_login {
          border-bottom: none;
