@@ -120,10 +120,14 @@
      .cuisine_mobile_second.display span::before {
          transform: rotate(225deg);
          top: 20px;
+         right: -62px;
+         width: 8px;
      }
      .cuisine_mobile_second.display span::after {
          transform: rotate(135deg);
          top: 20px;
+         right: -66px;
+         width: 8px;
      }
      .mobile_login {
          border-bottom: none;
