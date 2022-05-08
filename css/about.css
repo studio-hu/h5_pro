@@ -51,7 +51,7 @@
     transition: .3s ease-in-out;
 }
 
-.active a {
+.active_title a {
     color: #fff;
     background-color: rgb(68, 68, 68);
 }
