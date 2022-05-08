@@ -16,12 +16,12 @@
     background-position: center 0;
 }
 
-h2 {
+.container h2 {
     font-size: 32px;
     text-transform: capitalize;
 }
 
-a {
+.container a {
     /* display: inline-block; */
     height: 20px;
     text-decoration: none;
@@ -30,12 +30,12 @@ a {
     font-size: 12px;
 }
 
-a:hover {
+.container a:hover {
     color: lightslategray;
     /* border-bottom: 2px solid #ff4b2b; */
 }
 
-button {
+.container button {
     background-color: #ff4b2b;
     padding: 10px 40px;
     border: 1px solid transparent;
@@ -47,7 +47,7 @@ button {
     transition: transform 80ms;
 }
 
-button:active {
+.container button:active {
     transform: scale(.95);
 }
 
@@ -182,15 +182,16 @@ button:active {
 /* 移动端开始########################################################################################## */
 
 @media screen and (max-width:768px) {
-    h2 {
+    .container h2 {
         font-size: 32px;
         /* font-size: 5rem; */
     }
-    a {
+    .container a {
         height: 3.2rem;
         font-size: 2rem;
+        padding-bottom: 5rem;
     }
-    button {
+    .container button {
         /* padding: 1.5rem 6.8rem; */
         padding: 10px 40px;
         /* border: 1px solid transparent; */

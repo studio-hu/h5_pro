@@ -102,3 +102,17 @@ function get_width() {
 }
 window.addEventListener('load', get_width);
 window.addEventListener('resize', get_width)
+
+var mobile_second = document.getElementById('mobile_second')
+var display = false
+mobile_second.addEventListener('click', function() {
+    console.log("点击了");
+    if (!display) {
+        this.classList.add('display')
+        display = true
+    } else {
+        this.classList.remove('display')
+        display = false
+    }
+
+})

@@ -72,6 +72,7 @@
          border-radius: 5px;
      }
      .mobile_item {
+         box-sizing: border-box;
          width: 100%;
          margin: 0 auto;
          height: 40px;
