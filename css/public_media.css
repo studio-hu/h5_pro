@@ -120,7 +120,7 @@
      .cuisine_mobile_second.display span::before {
          transform: rotate(225deg);
          top: 20px;
-         right: -62px;
+         right: -61px;
          width: 8px;
      }
      .cuisine_mobile_second.display span::after {
