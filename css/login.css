@@ -58,7 +58,7 @@ button:active {
     background-color: #ffffff;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.20);
     border-radius: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .form-container {
@@ -98,28 +98,6 @@ button:active {
     border: none;
 }
 
-.social-container {
-    margin: 10px 0;
-}
-
-.social-container a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    border: 1px solid #ddd;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    color: #333333;
-    margin: 0 5px;
-}
-
-.social-container a:hover {
-    color: white;
-    background-color: #222f3f;
-    border-color: #cbcbcc;
-}
-
 .overlay-container {
     position: absolute;
     top: 0;
@@ -127,8 +105,8 @@ button:active {
     height: 100%;
     right: 0;
     z-index: 100;
-    overflow: hidden;
-    transition: transform .6s ease-in-out;
+    /* overflow: hidden; */
+    transition: .6s ease-in-out;
 }
 
 .overlay {
@@ -166,12 +144,12 @@ button:active {
 .overlay-right-container {
     right: 0;
     transform: translateX(0);
-    transition: transform .6s ease-in-out;
+    transition: .6s ease-in-out;
 }
 
 .overlay-left-container {
     transform: translateX(10%);
-    transition: transform .6s ease-in-out;
+    transition: .6s ease-in-out;
 }
 
 .container.active .sign-up-container {
@@ -200,6 +178,132 @@ button:active {
 }
 
 
-/* 移动端开始 */
+/* 移动端开始########################################################################################## */
 
-@media screen and (max-width:768px) {}
+@media screen and (max-width:768px) {
+    h2 {
+        font-size: 32px;
+        /* font-size: 5rem; */
+    }
+    a {
+        height: 3.2rem;
+        font-size: 2rem;
+    }
+    button {
+        /* padding: 1.5rem 6.8rem; */
+        padding: 10px 40px;
+        /* border: 1px solid transparent; */
+        border-radius: 20px;
+        margin-top: 1.5rem;
+    }
+    .container {
+        width: 90%;
+        height: 70%;
+        border-radius: 10px;
+        margin-top: 100px;
+    }
+    .form-container {
+        width: 100%;
+        height: 50%;
+    }
+    .sign-up-container {
+        /*right: 0;*/
+        z-index: 1;
+    }
+    .sign-in-container {
+        z-index: 2;
+    }
+    .form-container form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 12px 15px;
+    }
+    .form-container input {
+        width: 100%;
+        margin: 8px 0;
+        padding: 12px;
+        background-color: #eee;
+        border: none;
+    }
+    .overlay-container {
+        position: absolute;
+        top: 50%;
+        /* width: 50%;
+        height: 100%; */
+        width: 100%;
+        height: 50%;
+        left: 0;
+        /* right: 0; */
+        /* bottom: 0; */
+        z-index: 100;
+        overflow: hidden;
+        transition: .6s ease-in-out;
+    }
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 200%;
+        /* right: 0; */
+        left: 0;
+        top: -100%;
+        /* bottom: 100%; */
+        background-color: #ff4b2b;
+        background-image: linear-gradient(to right, #ff4b2d, #ff426b);
+    }
+    .overlay-panel {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        color: white;
+        padding: 0 40px;
+        text-align: center;
+    }
+    .overlay-panel button {
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    .overlay-panel p {
+        font-size: 12px;
+        margin: 10px 0 15px;
+    }
+    .overlay-right-container {
+        /* right: 0; */
+        bottom: 0;
+        transform: translateY(0);
+        transition: .6s ease-in-out;
+    }
+    .overlay-left-container {
+        transform: translatey(0);
+        transition: .6s ease-in-out;
+    }
+    .container.active .sign-up-container {
+        transform: translateY(100%);
+        z-index: 5;
+    }
+    .container.active .sign-in-container {
+        transform: translateY(100%);
+    }
+    .container.active .overlay-container {
+        transform: translateY(-100%);
+    }
+    .container.active .overlay {
+        transform: translateY(50%);
+    }
+    .container.active .overlay-left-container {
+        transform: translateY(0);
+    }
+    .container.active .overlay-right-container {
+        transform: translateY(-10%);
+    }
+}
+
+
+/* 移动端结束########################################################################################## */
