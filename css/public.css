@@ -176,13 +176,40 @@
 
 .top {
     position: fixed;
-    right: 10px;
+    right: -50px;
     bottom: 40px;
     width: 40px;
     height: 40px;
     z-index: 9999;
-    background-color: #CE3232;
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    transition: .6s ease-in-out;
+}
+
+.top:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.top span::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 2px;
+    left: 9px;
+    top: 20px;
+    background-color: #fff;
+    transform: rotate(305deg);
+}
+
+.top span::after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 2px;
+    left: 17px;
+    top: 20px;
+    background-color: #fff;
+    transform: rotate(55deg);
 }
 
 .top a {

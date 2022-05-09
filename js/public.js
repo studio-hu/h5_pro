@@ -19,6 +19,34 @@ window.addEventListener('scroll', function() {
 
 })
 
+
+//回到顶部
+// var top = document.getElementById('top')
+// var top = document.getElementsByClassName('.top')[0]
+window.addEventListener('scroll', function() {
+    let h_body = parseInt(this.document.body.clientHeight)
+    let r = 10 + 'px'
+        // let h_scr = parseInt(this.screen.availHeight)
+        // console.log(window.scrollY);
+        // console.log("body高:" + h_body);
+        // console.log("screen高:" + h_scr);
+        // this_h = h_body - h_scr;
+
+    h_pretence = h_body * 0.2
+        // console.log("当前高：" + this_h);
+        // console.log("30%：" + h_pretence);
+    if (window.scrollY > h_pretence) {
+        let top = document.getElementById('top').style.right = 10 + "px"
+            // top.style.right = r
+            // console.log("大于30%");
+    } else {
+        let top = document.getElementById('top').style.right = -50 + "px"
+    }
+
+})
+
+
+
 // window.addEventListener('scroll', function() {
 //     let header = document.querySelector('.header');
 //     if (window.scrollY > 0) {
